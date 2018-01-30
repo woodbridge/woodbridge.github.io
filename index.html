@@ -20,7 +20,7 @@
     }
 
     #container {
-      width: 200px;
+      width: 400px;
       margin: 50px auto;
     }
 
@@ -121,6 +121,37 @@
       color: #333;
     }
 
+    #work {
+      margin-top: 40px;
+    }
+
+    .work {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .work__name {
+      margin-top: 10px;
+      margin-bottom: 9px !important;
+    }
+
+    .work__name a {
+      color: black;
+    }
+
+    .work__header {
+      margin-bottom: 40px;
+    }
+
+    .work__image {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .work__desc {
+      font-size: 10px;
+    }
+
   </style>
 </head>
 
@@ -139,10 +170,11 @@
 
     <section class='content'>
 
-      <p style='text-align: center'>CS and History at Columbia</p>
+      <p style='text-align: center'>CS @ Columbia</p>
+      <p>Incoming PM at Microsoft</p>
 
-      <p style='text-align: center;'>based in New York City</p>
-      <p style='font-size: 9px;'>past: Cleveland. Cambridge, MA.</p>
+      <p style='text-align: center;'>Based in New York City</p>
+      <p style='font-size: 9px; font-style: italic;'>past: Cleveland, Cambridge, Los Angeles</p>
 
       <!-- <p>founder, <a href="http://rafflecreator.com">rafflecreator.com</a></p> -->
 
@@ -151,8 +183,44 @@
         <!-- <p style='text-align: center;'><a href='#'>[ photographs ]</a></p> -->
         <p style='text-align: center;'><a href='mailto:me@justinwoodbridge.com'>[ email ]</a></p>
         <!-- <p style='text-align: center;'><a href='#'>[ tweets ]</a></p> -->
+
+        <div id='work'>
+          <header class='work__header'>
+            <p>Work</p>                      
+          </header>
+
+          <div class='work'>
+            <img class='work__image' src="rc.png" width='200px' style='border: 1px solid #eee;'>
+    
+            <p class='work__name'><a href="http://rafflecreator.com">Raffle Creator</a></p>
+            <p class='work__desc'>Code, design, business. Over $3.5 million raised by non-profits.</p>
+          </div>
+
+          <div class='work'>
+            <img class='work__image' src="sza.png" width='200px'>
+    
+            <p class='work__name'><a href="http://szactrl.com">SZA</a></p>
+            <p class='work__desc'>Collaborated on code at Integral</p>
+          </div>
+
+          <div class='work'>
+            <img class='work__image' src="trippie.png" width='200px'>
+    
+            <p class='work__name'><a href="http://vintagelee.com">Trippie Red</a></p>
+            <p class='work__desc'>Collaborated on code and design at Integral</p>
+          </div>
+
+          <div class='work'>
+            <img class='work__image' src="vintage.png" width='200px'>
+    
+            <p class='work__name'><a href="http://vintagelee.com">Vintage Lee</a></p>
+            <p class='work__desc'>Collaborated on code and design at Integral</p>
+          </div>
+        </div>
+
       </ul>
 
+      <p style='font-size: 9px;'>Always happy to talk: me at domain</p>
     </section>
   </section>
 
