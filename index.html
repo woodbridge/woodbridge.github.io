@@ -1,231 +1,255 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Justin Woodbridge</title>
+  <head>
+    <title>Justin Woodbridge</title>
 
-  <style type="text/css">
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+      }
 
-    * {
-      padding: 0;
-      margin: 0;
-      font-size: 13px;
-    }
+      body {
+        font-family: "Helvetica", monospace;
+      }
 
-    body {
-      font-family: 'Helvetica', monospace;
-    }
+      p {
+        line-height: 140%;
+      }
 
-    p {
-      line-height: 140%;
-    }
+      #container {
+        width: 400px;
+        margin: 150px auto;
+      }
 
-    #container {
-      width: 400px;
-      margin: 150px auto;
-    }
+      h1 {
+        font-size: 1.1em;
+        font-weight: bold;
+        margin: 12px 0;
+      }
 
-    h1 {
-      font-size: 1.1em;
-      font-weight: bold;
-      margin: 12px 0;
-    }
+      h2 {
+        font-size: 1em;
+        margin: 19px 0;
+        color: #333;
+      }
 
-    h2 {
-      font-size: 1em;
-      margin: 19px 0;
-      color: #333;
-    }
+      header.mast {
+        text-align: center;
+        margin-bottom: 20px;
+      }
 
-    header.mast {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+      article {
+        margin-bottom: 46px;
+      }
 
-    article {
-      margin-bottom: 46px;
-    }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
+      li {
+        margin-bottom: 6px;
+      }
 
-    li {
-      margin-bottom: 6px;
-    }
+      a {
+        color: #888;
+      }
 
-    a {
-      color: #888;
+      ul.thing-list {
+      }
 
-    }
+      p.legend {
+        margin-bottom: 15px;
+        font-size: 11px;
+        color: #999;
+        font-style: italic;
+      }
 
-    ul.thing-list {
+      .boom {
+        color: #96191f;
+        font-size: 14px;
+      }
 
-    }
+      div.older-books {
+        margin-top: 20px;
+      }
 
-    p.legend {
-      margin-bottom: 15px;
-      font-size: 11px;
-      color: #999;
-      font-style: italic;
-    }
+      div.older-books h3 {
+        font-size: 10px;
+        font-weight: normal;
+        color: #999;
+        font-style: italic;
+        display: inline;
+      }
 
-    .boom {
-      color: #96191F;
-      font-size: 14px;
-    }
+      div.older-books p {
+        color: #999;
+        display: inline;
+      }
 
-    div.older-books {
-      margin-top: 20px;
-    }
+      div.older-books a {
+        font-size: 9px;
+      }
 
-    div.older-books h3 {
-      font-size: 10px;
-      font-weight: normal;
-      color: #999;
-      font-style: italic;
-      display: inline;
-    }
+      #then {
+        color: #999;
+      }
 
-    div.older-books p {
-      color: #999;
-      display: inline;
-    }
+      #then a {
+        color: #999;
+      }
 
-    div.older-books a {
-      font-size: 9px;
-    }
+      .content p {
+        margin-bottom: 15px;
+        text-align: center;
+      }
 
-    #then {
-      color: #999;
-    }
+      ul.linkz {
+        margin-top: 30px;
+      }
 
-    #then a {
-      color: #999;
-    }
+      ul.linkz a {
+        text-decoration: none;
+      }
 
-    .content p {
-      margin-bottom: 15px;
-      text-align: center;
-    }
+      ul.linkz a:hover {
+        color: #333;
+      }
 
-    ul.linkz {
-      margin-top: 30px;
-    }
+      #work {
+        margin-top: 40px;
+      }
 
-    ul.linkz a {
-      text-decoration: none;
-    }
+      .work {
+        margin-bottom: 50px;
+        text-align: center;
+      }
 
-    ul.linkz a:hover {
-      color: #333;
-    }
+      .work__name {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: 8px !important;
+      }
 
-    #work {
-      margin-top: 40px;
-    }
+      .work__name a {
+        color: black;
+      }
 
-    .work {
-      margin-bottom: 50px;
-      text-align: center;
-    }
+      .work__header {
+        margin-bottom: 40px;
+      }
 
-    .work__name {
-      font-size: 11px;      
-      margin-top: 10px;
-      margin-bottom: 8px !important;
-    }
+      .work__image {
+        display: block;
+        margin: 0 auto;
+      }
 
-    .work__name a {
-      color: black;
-    }
+      .work__desc {
+        font-size: 12px;
+      }
+    </style>
+  </head>
 
-    .work__header {
-      margin-bottom: 40px;
-    }
+  <body>
+    <section id="container">
+      <img
+        src="poo.png"
+        style="height: 120px; margin: 0 auto; display: block"
+      />
 
-    .work__image {
-      display: block;
-      margin: 0 auto;
-    }
+      <!-- <img src="pig2.png" style='height: 120px; margin: 0 auto; display: block;'> -->
 
-    .work__desc {
-      font-size: 12px;
-    }
+      <header class="mast">
+        <h1>Justin Woodbridge</h1>
+        <p>1995 &mdash;</p>
+      </header>
 
-  </style>
-</head>
+      <section class="content">
+        <!-- <p style='text-align: center'>Co-founder, <a href='http://bayes.com'>Bayes (YC S19)</a></p> -->
+        <p style="text-align: center">BK, NY</p>
 
-<body>
+        <!-- <p style='font-size: 9px; font-style: italic;'>Past: Cleveland, Cambridge, Los Angeles, New York</p> -->
 
-  <section id='container'>
+        <!-- <p>founder, <a href="http://rafflecreator.com">rafflecreator.com</a></p> -->
 
-    <img src="poo.png" style='height: 120px; margin: 0 auto; display: block;'>
+        <ul class="linkz">
+          <!-- <p style='text-align: center;'><a href='#'>[ photographs ]</a></p> -->
+          <!-- <p style='text-align: center;'><a href='mailto:me@justinwoodbridge.com'>[ email ]</a></p> -->
+          <!-- <p style='text-align: center;'><a href='#'>[ tweets ]</a></p> -->
 
-    <!-- <img src="pig2.png" style='height: 120px; margin: 0 auto; display: block;'> -->
+          <div id="work">
+            <header class="work__header">
+              <p>Past Work</p>
+            </header>
 
-    <header class='mast'>
-      <h1>Justin Woodbridge</h1>
-      <p>1995 &mdash;</p>
-    </header>
+            <div class="work">
+              <a href="http://rafflecreator.com"
+                ><img
+                  class="work__image"
+                  src="bayes.png"
+                  width="200px"
+                  style="border: 1px solid #eee"
+              /></a>
 
-    <section class='content'>
+              <p class="work__name">
+                <a href="http://rafflecreator.com">Bayes</a>
+              </p>
+              <p class="work__desc">
+                A creative tool for thinking and speaking with data, acquired by
+                Airtable
+              </p>
+            </div>
 
-      <p style='text-align: center'>Co-founder, <a href='http://bayes.com'>Bayes (YC S19)</a></p>
-      <p style='text-align: center;'>New York, NY</p>
+            <div class="work">
+              <a href="http://rafflecreator.com"
+                ><img
+                  class="work__image"
+                  src="rc.png"
+                  width="200px"
+                  style="border: 1px solid #eee"
+              /></a>
 
-      <p>Past: PM @ Microsoft, CS at Columbia</p>
-      <!-- <p>Incoming PM at Microsoft</p> -->
+              <p class="work__name">
+                <a href="http://rafflecreator.com">Raffle Creator</a>
+              </p>
+              <p class="work__desc">
+                Founder. Over $20 million raised by non-profits
+              </p>
+            </div>
 
-      <!-- <p style='font-size: 9px; font-style: italic;'>Past: Cleveland, Cambridge, Los Angeles, New York</p> -->
+            <div class="work">
+              <a href="http://szactrl.com"
+                ><img class="work__image" src="sza.png" width="200px"
+              /></a>
 
-      <!-- <p>founder, <a href="http://rafflecreator.com">rafflecreator.com</a></p> -->
+              <p class="work__name"><a href="http://szactrl.com">SZA</a></p>
+              <p class="work__desc">
+                Collaborated on code at
+                <a href="http://integral.studio">Integral</a> for SZA's album
+                rollout site
+              </p>
+            </div>
 
-      <ul class='linkz'>
-        <!-- <p style='text-align: center;'><a href='#'>[ photographs ]</a></p> -->
-        <!-- <p style='text-align: center;'><a href='mailto:me@justinwoodbridge.com'>[ email ]</a></p> -->
-        <!-- <p style='text-align: center;'><a href='#'>[ tweets ]</a></p> -->
+            <div class="work">
+              <a href="http://1400.world"
+                ><img class="work__image" src="trippie.png" width="200px"
+              /></a>
 
-        <div id='work'>
-          <!-- <header class='work__header'>
-            <p>Past Work</p>                      
-          </header> -->
-
-          <!-- <div class='work'>
-            <a href='http://rafflecreator.com'><img class='work__image' src="rc.png" width='200px' style='border: 1px solid #eee;'></a>
-    
-            <p class='work__name'><a href="http://rafflecreator.com">Raffle Creator</a></p>
-            <p class='work__desc'>Founder. Over $20 million raised by non-profits</p>
+              <p class="work__name">
+                <a href="http://1400.world">Trippie Red</a>
+              </p>
+              <p class="work__desc">
+                Collaborated on code and design at Integral for Trippie Red's
+                merch site
+              </p>
+            </div>
           </div>
- -->
-          <!-- <div class='work'>
-            <a href='http://szactrl.com'><img class='work__image' src="sza.png" width='200px'></a>
-    
-            <p class='work__name'><a href="http://szactrl.com">SZA</a></p>
-            <p class='work__desc'>Collaborated on code at <a href='http://integral.studio'>Integral</a> for SZA's album rollout site</p>
-          </div>
+        </ul>
 
-          <div class='work'>
-            <a href='http://1400.world'><img class='work__image' src="trippie.png" width='200px'></a>
-    
-            <p class='work__name'><a href="http://1400.world">Trippie Red</a></p>
-            <p class='work__desc'>Collaborated on code and design at Integral for Trippie Red's merch site</p>
-          </div>
-
-          <div class='work'>
-            <a href='http://vintagelee.com'><img class='work__image' src="vintage.png" width='200px'></a>
-    
-            <p class='work__name'><a href="http://vintagelee.com">Vintage Lee</a></p>
-            <p class='work__desc'>Collaborated on code and design at Integral for Vintage Lee's homepage</p>
-          </div>
-        </div> -->
-
-      </ul>
-
-      <!-- <p style='font-size: 10px;'>Always happy to talk: me at domain</p> -->
+        <!-- <p style='font-size: 10px;'>Always happy to talk: me at domain</p> -->
+      </section>
     </section>
-  </section>
-
-</body>
-
+  </body>
 </html>
